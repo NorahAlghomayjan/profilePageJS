@@ -1,0 +1,103 @@
+* { font-family: 'Roboto', sans-serif; margin: 0px; flex-wrap: wrap;}
+
+/* styling top */
+
+.page { height: auto; background-color: whitesmoke; display: flex; justify-content: center;}
+
+.top {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding: 0px 50px 0px 50px;
+    align-items: center;}
+
+.title, #profile , #links , #sign-out, #sign-out button , #links a
+{margin: 5px 10px 5px 10px; color: white;}
+
+#profile {flex:1}
+
+#links {flex:4; display: flex; justify-content: flex-start; align-items: center;}
+
+#sign-out {flex:2; display: flex; align-items: center; justify-content: center;}
+
+#sign-out button {
+    background-color: rgb(76, 198, 198);
+    font-size: 15px;
+    padding: 5px 7px 5px 7px;
+    font-weight: bold;}
+
+a {text-decoration: none;}
+
+/* styling bottom */
+
+.bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px 50px 5px 50px;
+    width: 1000px;
+}
+
+.profile , .education , .requests , .connections {margin-top: 20px;}
+
+.card-body , .edu-body , .req-body , .connect-body , .connect-tail {
+    background-color: white; padding: 10px;
+    border: 2px solid rgb(207, 205, 205);
+}
+
+.card-header ,.edu-header, .req-header , .connect-header , .sconnect-tail{
+    padding: 10px;
+    background-color: rgb(26, 25, 25);
+}
+
+/* right-side */
+
+.right-side { margin-right: 5px; flex: 2; margin-top: 20px; }
+
+.card-header img {border-radius: 50%;
+    border: 1px solid gray;
+    height: 80px;
+    width: 80px;
+    background-color: #fff; 
+    position:absolute;
+    top: 13px;}
+
+.card-header {
+    position: relative;
+    background-color: rgb(76, 198, 198);
+    height: 50px;}
+
+.card-body {padding-top: 50px;}
+
+.card-header * , .card-body * , .edu-body .row , .edu-header *  { margin: 7px 20px 2px 20px;}
+.card-body h4 , .card-body a {display: flex; align-items: center;}
+
+/* left-side */
+
+.left-side { margin-left: 5px; flex: 1; margin-top: 20px;}
+
+.req-body , .connect-body , .connect-tail {padding: 5px;}
+
+.req-header , .connect-header
+{ display: flex; justify-content: flex-start; align-items: center;}
+
+.connect-header * , .req-header * { margin: 2px 5px 2px 5px;}
+
+.points {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 7px 10px 7px 10px;}
+
+.row img {border-radius: 50%; height: 40px; width: auto; border: none;margin-right: 5px;}
+
+.req-body .row { display: flex; justify-content: space-between; align-items: center;padding: 5px;}
+
+.connect-body .row {display: flex; align-items: center; padding: 5px;}
+
+/* .connect-body .row  * {margin: 3px;} */
+/* .connect-body .row img {border-radius: 50%; height: 30px; width: auto; border: none; margin-right: 5px;} */
+
+.icons {height: 20px; width: auto; border: none; margin: 0px 13px 0px 0px;}
+
+.alignment {display: flex; align-items: center;}
+.alignment img , .connect-body .row img { margin-right: 13px}
